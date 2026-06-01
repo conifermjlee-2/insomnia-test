@@ -8,15 +8,38 @@ meta:
   description: ""
 collection:
   - url: ""
-    name: conifer-test1
+    name: conifer-test1-api1
     meta:
       id: req_9b8fa536e5954e52bca32eb9e1b8d31d
       created: 1780294676362
-      modified: 1780294685712
+      modified: 1780295050969
       isPrivate: false
       description: ""
       sortKey: -1780294676362
     method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: conifer-test1-api2
+    meta:
+      id: req_9bf0cde325e4409faf6e5a8b778b005c
+      created: 1780295041222
+      modified: 1780295060110
+      isPrivate: false
+      description: ""
+      sortKey: -1780295041222
+    method: POST
     headers:
       - name: User-Agent
         value: insomnia/12.6.0
