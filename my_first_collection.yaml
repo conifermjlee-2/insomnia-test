@@ -1,0 +1,45 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: My first collection
+meta:
+  id: wrk_1d0e1cf6ab234786a6c81f4dd0699c70
+  created: 1780294676309
+  modified: 1780294676309
+  description: ""
+collection:
+  - url: ""
+    name: conifer-test1
+    meta:
+      id: req_9b8fa536e5954e52bca32eb9e1b8d31d
+      created: 1780294676362
+      modified: 1780294685712
+      isPrivate: false
+      description: ""
+      sortKey: -1780294676362
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_603ccc27ec8e83780c080db2b8d52a4ecdec17bc
+    created: 1780294676327
+    modified: 1780294676327
+environments:
+  name: Base Environment
+  meta:
+    id: env_603ccc27ec8e83780c080db2b8d52a4ecdec17bc
+    created: 1780294676323
+    modified: 1780294676323
+    isPrivate: false
